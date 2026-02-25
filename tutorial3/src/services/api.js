@@ -10,7 +10,7 @@ const BASE_URL = 'https://express-t4.onrender.com/api';
                 username,
                 password
             });
-            return response.data;   // axios wraps the response and .data gets the actual content
+            return response.data;   //axios wraps the response and .data gets the actual content
         } catch (error){
             throw error;
         }

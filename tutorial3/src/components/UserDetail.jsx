@@ -51,7 +51,7 @@ const UserDetail = () => {
     return (
         <div className="user-detail-container">
             <button onClick={() => navigate('/users')} className="back-button">
-                ← Back to Users
+                Back to Users
             </button>
 
             <div className="user-detail-card">
