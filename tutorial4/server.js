@@ -8,7 +8,7 @@ const app = express();
 //Tells Express to automatically parse JSON from request bodies
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 let users = [
     { id: uuidv4(), email: "abc@dal.ca", firstName: "ABC" },
